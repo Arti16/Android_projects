@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#616161</color>
+    <color name="colorPrimaryDark">#424242</color>
+    <color name="colorAccent">#1565C0</color>
+    <color name="button_pressed_border">#0D47A1</color>
+    <color name="button_pressed">#E3F2FD</color>
+    <color name="button_unpressed_border">#5C5C5C</color>
+    <color name="button_unpressed">#FEFFFC</color>
+    <color name="windowBackground">#FFFFFF</color>
+
+    <color name="background_signup">#c873f4</color>
+</resources>

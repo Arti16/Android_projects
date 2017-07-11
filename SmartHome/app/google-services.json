@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "439381015449",
+    "firebase_url": "https://smarthome-22a66.firebaseio.com",
+    "project_id": "smarthome-22a66",
+    "storage_bucket": "smarthome-22a66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439381015449:android:ed83ee2cb389fa49",
+        "android_client_info": {
+          "package_name": "com.example.poision.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439381015449-akc4ldv8se5v5gbcpegm6pievrvf1c7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.poision.smarthome",
+            "certificate_hash": "95d3a63b9a6bbb341a90a4a91fcadfbb596fa1cc"
+          }
+        },
+        {
+          "client_id": "439381015449-jijlth1dnnref5p3ekr3ev7q3b2ta0is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWOAR68L4WJ36Gsys82xHEtGWpZZk8C3k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439381015449-jijlth1dnnref5p3ekr3ev7q3b2ta0is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    android:id="@+id/relativelayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tableLayout"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/label_setpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/set_your_passcode"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/pin1"/>
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/pin2"/>
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/pin3"/>
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/pin4"/>
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/pin5"/>
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/pin6"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tableLayout"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp">
+
+            <Button
+                android:id="@+id/key_1"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_1" />
+            <Button
+                android:id="@+id/key_2"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_2" />
+            <Button
+                android:id="@+id/key_3"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp"
+
+            android:textSize="20sp">
+
+            <Button
+                android:id="@+id/key_4"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_4" />
+            <Button
+                android:id="@+id/key_5"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_5" />
+            <Button
+                android:id="@+id/key_6"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_6" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp">
+
+            <Button
+                android:id="@+id/key_7"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_7" />
+            <Button
+                android:id="@+id/key_8"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_8" />
+            <Button
+                android:id="@+id/key_9"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_9" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp">
+
+            <Button
+                android:id="@+id/key_back"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_back"
+                android:visibility="invisible"/>
+            <Button
+                android:id="@+id/key_0"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_0" />
+            <Button
+                android:id="@+id/key_del"
+                style="@style/NumpadButton"
+                android:background="@drawable/numpad_button"
+                android:text="@string/key_delete" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+</RelativeLayout>

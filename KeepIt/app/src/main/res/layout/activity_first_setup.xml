@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_firstsetup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_prev"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="Previous"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="invisible" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/dot1"/>
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/dot2"/>
+            <TextView
+                style="@style/PinBullet"
+                android:id="@+id/dot3"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="Next"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fragment_container"
+        android:layout_above="@+id/linearLayout2">
+
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:weightSum="1"
+    tools:context="com.saxena.ayush.tictactoe.MainActivity">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:id="@+id/webview" />
+
+    <TextView
+        android:text="Select a mode"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            app:srcCompat="@mipmap/internet"
+            android:background="@android:color/transparent"
+            android:id="@+id/internet"
+            android:layout_weight="0.50"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            app:srcCompat="@mipmap/lan"
+            android:background="@android:color/transparent"
+            android:layout_weight="0.50"
+            android:scaleType="fitCenter"
+            android:id="@+id/lan" />
+    </LinearLayout>
+</LinearLayout>

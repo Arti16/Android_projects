@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "80752922662",
+    "firebase_url": "https://pass-keeper-1c671.firebaseio.com",
+    "project_id": "pass-keeper-1c671",
+    "storage_bucket": "pass-keeper-1c671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80752922662:android:cb6dc89d47a9b1d3",
+        "android_client_info": {
+          "package_name": "com.saxena.ayush.keepit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80752922662-et4fv3rq7ele5cc6k14crccdmp0c3aoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtjq-DiT1ivf1t8QObE9NawnJAHp7I24A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
