@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@android:color/white">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Check The Timings"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:weightSum="3"
+                    >
+                        <CheckBox
+                            android:text="7-8AM "
+                            android:theme="@style/checkBoxStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check1"
+                            android:background="@drawable/border"
+                            android:layout_weight="1"
+                            android:checked="false" />
+
+                        <CheckBox
+                            android:text=" 8-9AM"
+                            android:theme="@style/checkBoxStyle"
+                            android:background="@drawable/border"
+                            android:layout_width="wrap_content"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check2"
+                            android:layout_weight="1"/>
+
+                        <CheckBox
+                            android:text="9-10AM"
+                            android:theme="@style/checkBoxStyle"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/border"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:id="@+id/check3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:weightSum="3"
+                    >
+                        <CheckBox
+                            android:theme="@style/checkBoxStyle"
+                            android:background="@drawable/border"
+                            android:layout_width="wrap_content"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check4"
+                            android:layout_weight="1"
+                            android:text="10-11AM" />
+
+                        <CheckBox
+                            android:text="11-12PM"
+                            android:theme="@style/checkBoxStyle"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/border"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check5"
+                            android:layout_weight="1"/>
+
+                        <CheckBox
+                            android:text="12-01PM"
+                            android:theme="@style/checkBoxStyle"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/border"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:id="@+id/check6" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:weightSum="3"
+                    >
+                        <CheckBox
+                            android:text="1-2PM"
+                            android:theme="@style/checkBoxStyle"
+                            android:background="@drawable/border"
+                            android:layout_width="wrap_content"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check7"
+                            android:layout_weight="1"/>
+
+                        <CheckBox
+                            android:text="2-3PM"
+                            android:theme="@style/checkBoxStyle"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/border"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check8"
+                            android:layout_weight="1"/>
+
+                        <CheckBox
+                            android:text="3-4PM"
+                            android:theme="@style/checkBoxStyle"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/border"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:id="@+id/check9" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:weightSum="3">
+                        <CheckBox
+                            android:text="4-5PM"
+                            android:theme="@style/checkBoxStyle"
+                            android:background="@drawable/border"
+                            android:layout_width="wrap_content"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check10"
+                            android:layout_weight="1"/>
+
+                        <CheckBox
+                            android:text="5-6PM"
+                            android:theme="@style/checkBoxStyle"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/border"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check11"
+                            android:layout_weight="1"/>
+                        <CheckBox
+                            android:text="6-7PM"
+                            android:theme="@style/checkBoxStyle"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/border"
+                            android:layout_margin="7dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/check12"
+                            android:layout_weight="1"/>
+                </TableRow>
+
+
+
+        </TableLayout>
+</LinearLayout>
